@@ -253,43 +253,51 @@ void main() {
   // Map<String, dynamic> product = {
   //   'name': 'Apple',
   //   'price': 100,
-  //   'quantity': 18
+  //   'quantity': 18,
   // };
 
   // if (product['quantity'] > 0) {
-  //   print('${product['name']} is in stock');
+  //   print('In stock');
   // } else {
-  //   print('${product['name']} is out of stock');
+  //   print('Out of stock');
   // }
   
   // Question No 20
-  // Map car = {'brand': 'toyota', 'color': 'red', 'isSedan': true};
+  // Map<String, dynamic> car = {
+  //   'brand': 'Toyota',
+  //   'color': 'Red',
+  //   'isSedan': true,
+  // };
 
-  // if (car['isSedan'] == true && car['color'] == 'red') {
-  //   print('Car is match');
+  // if (car['isSedan'] == true && car['color'] == 'Red') {
+  //   print('Match');
   // } else {
-  //   print('Car is not Match');
+  //   print('No match');
   // }
 
   // Question No 21 
-/*  Map<String, dynamic> user = {
-    'name': 'Tom',
-    'isAdmin': true,
-    'isActive': true,
-  };
+  // Map<String, dynamic> user = {
+  //   'name': 'Tom',
+  //   'isAdmin': true,
+  //   'isActive': true,
+  // };
 
-  if (user['isActive'] && user['isAdmin']) {
-    print('Admin is Active');
-  } else {
-    print('Admin is not active');
-  }*/
+  // if (user['isActive'] && user['isAdmin']) {
+  //   print('Active admin');
+  // } else {
+  //   print('Not an active admin');
+  // }
 
   // Question No 22
-  // Map<String, int> cart = {"Watches": 6, "Shirts": 4, "Shoes": 8};
+  // Map<String, int> cart = {
+  //   'Watches': 6,
+  //   'Shirts': 4,
+  //   'Shoes': 8,
+  // };
 
-  // if (cart.containsKey("Shoes")) {
-  //   print("Product is Found");
+  // if (cart.containsKey('Apple')) {
+  //   print('Product found');
   // } else {
-  //   print("Product is not Found");
+  //   print('Product not found');
   // }
 }
